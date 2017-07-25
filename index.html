@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>obscure star wars quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="grid.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  
+<!---Banner/Title-->
+  
+    <header class="header section group span_12_of_12">
+      <h1 class="quiz-title"><img src="imgs/rebel.svg" class="rebel-1">star wars obscurity quiz
+        <img src="imgs/rebel.svg" class="rebel-2"></h1>
+    </header>
+    
+<!---Start page-->  
+
+  <section class="start-here">
+    <h2>Do you know the ins and outs of the <span class="sw">  Star Wars </span>Universe?</h2>
+    <button type="button" class="start-btn">start quiz</button>
+    <h3>May the Force be with you!</h3>
+  </section>
+
+<!---Finshed Page-->
+
+  <section class="finish-here hidden">
+    <span class="score-message"></span>
+    <button class="finish-btn">redo quiz</button>
+  </section>
+
+<!---Quiz Page-->  
+  <!---Quiz Container-->
+  
+  <main class="hidden quiz-here">
+    <div class="section group">
+	    <div class="col span_7_of_12 quiz-box">
+	    <div class="question">
+	      
+	    </div>
+	    <form id="quiz">
+
+	    </form>
+	    </div>
+	    
+	 <!---Picture Container-->
+	    
+	    <div class="col span_5_of_12 pic-box">
+	    	
+	    </div>
+
+  <!---Information (Next button, score tracker, questions left-->
+
+	    <div class="col span_5_of_12 info-box">
+	      <div class="col span_4_of_12 info submit-answer">
+	        <button id="next" class="next-btn" name="next-btn" type="submit">Next</button>
+	      </div>
+	      <div class="col span_4_of_12 info score-keeper">
+	        <span class="score">Your score is <p>0/10</p></span>
+	      </div>
+	      <div class="col span_4_of_12 info remaining-questions">
+	        <span class="remaining-text"></span>
+	      </div>
+        </div>
+      </div>
+    
+  </main>  
+	 <script
+	 src="https://code.jquery.com/jquery-3.2.1.min.js"
+	 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+   crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
