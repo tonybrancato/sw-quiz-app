@@ -270,12 +270,14 @@ $(function() {
 
   $(FINISH_BUTTON).click(function(event) {
     currentQuestion = 0;
+    correctAnswerTally = 0;
     $(FINISH_PAGE_CLASS).hide();
     renderQuiz();
     insertQuestions(); 
     insertAnswers();
     insertPictures();
-    $('.score').append(`Your score is <p> ${correctAnswerTally} / 10</p>`)
+    totalScore();
+    $(SCORE_TEXT_CLASS).empty();
     $(START_PAGE_CLASS).show();
   })
   //When clicking an answer option, validate the question, don't allow for another choice
