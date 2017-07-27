@@ -46,9 +46,9 @@ let quizzQuestions = [
     question: 'What model is Han Solo\'s blaster pistol?',
     answers: [
       "DL-44",
-      "Sienar Systems TIE",
-      "Kuat Victory Class",
-      "Corellian CR-90 Corvette",
+      "BlasTech E-11 Blaster",
+      "SE-14C Blaster Pistol",
+      "BlasTech DLT-19 Heavy Blaster",
     ],
     correctAnswer: 0,
     picture: 'src="imgs/han-blaster.jpg" alt="Han Blaster"'
