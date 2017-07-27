@@ -87,7 +87,7 @@ let quizzQuestions = [
       "Darth Malak",
     ],
     correctAnswer: 1,
-    picture: 'src="imgs/Palpatine.jpg" alt="Palpatine and Master"'
+    picture: 'src="imgs/palpatine.jpg" alt="Palpatine and Master"'
   }, 
       //Question 8
    {
